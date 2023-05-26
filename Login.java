@@ -1,3 +1,9 @@
+/**
+ * The Login class represents the functionality related to user login in the course registration system.
+ * It extends the User class and provides methods to gather user information such as first name, last name,
+ * username, and password for authentication purposes.
+ */
+
 package crs;
 import java.util.Scanner;
 
