@@ -1,3 +1,4 @@
+/*The admin class is managing the course registration module by allowing updation ,deletion,and adding course functionaliites*/
 package crs;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -59,7 +60,7 @@ public class Admin extends User implements AdminInterface, java.io.Serializable 
 	}
 	
 	//WORKS
-	public static void deleteCourse() {
+	public static void deleteCourse() {         //The function allow the admin to delete the course.
 		Course course = new Course();
 		//Ask user for courseID
 		Scanner input = new Scanner(System.in);
@@ -76,7 +77,7 @@ public class Admin extends User implements AdminInterface, java.io.Serializable 
 	}
 	
 	//WORKS
-	public static void editCourse() throws IOException {
+	public static void editCourse() throws IOException {   //The function allow admin to edit the course
 		Course course = new Course();
 		Scanner input = new Scanner(System.in);
 		Scanner input2 = new Scanner(System.in);
@@ -130,7 +131,7 @@ public class Admin extends User implements AdminInterface, java.io.Serializable 
 	}
 
 	//WORKS
-	public static void displayInfo() throws IOException {
+	public static void displayInfo() throws IOException {  //The function allow admin to display info of course data
 		Course course = new Course(); 
 		Scanner input = new Scanner(System.in);
 		//Ask user for Course ID
@@ -146,7 +147,7 @@ public class Admin extends User implements AdminInterface, java.io.Serializable 
 	}
 	
 	//WORKS
-	public static void registerStudent() {
+	public static void registerStudent() {// The function allow to manage registeration by admin 
 		Scanner input = new Scanner(System.in);
 		
 		System.out.println("Student First Name: ");
