@@ -1,3 +1,10 @@
+/**
+ * The Course class represents a course in the course registration system.
+ * It stores information about the course, such as the course name, ID, maximum number of students,
+ * enrolled students, instructor, section number, and location.
+ * It also provides methods to add and remove students from the course, as well as retrieve and update course details.
+ */
+
 package crs;
 
 import java.io.BufferedReader;
@@ -9,6 +16,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.io.Serializable;
+
 
 
 public class Course implements Serializable {
